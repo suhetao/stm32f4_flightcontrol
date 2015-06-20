@@ -1,0 +1,209 @@
+Dependencies for Project 'stm32f4_flightcontrol', Target 'stm32f4_flightcontrol': (DO NOT MODIFY !)
+F (..\Application\Src\main.c)(0x55852C71)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS\Include -I..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\Drivers\inc -I..\Application\inc -I..\Libraries\eMPL -I..\Matrix\inc -I..\Algorithm\inc -I..\Math\inc -I..\miniIMU -I..\miniIMU\FP -I..\miniAHRS-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DARM_MATH_CM4 -D__FPU_PRESENT -DMPU9250 -DSTM32F40_41xxx-o .\stm32f4_flightcontrol\main.o --omf_browse .\stm32f4_flightcontrol\main.crf --depend .\stm32f4_flightcontrol\main.d)
+I (..\Application\inc\stm32f4_delay.h)(0x54D5EE23)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BF35A)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7158)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7158)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BF35A)
+I (..\Application\inc\stm32f4xx_conf.h)(0x54E4D312)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EFA)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D513A)
+I (..\Algorithm\inc\INS_EKF.h)(0x55850A03)
+I (..\Matrix\inc\Matrix.h)(0x5516BC32)
+I (..\Libraries\CMSIS\Include\arm_math.h)(0x527B7158)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (..\Algorithm\inc\Control.h)(0x55852926)
+I (..\Math\inc\Vector.h)(0x55852196)
+I (..\Matrix\inc\AdditionalMatrix.h)(0x55850169)
+F (..\Application\Src\system_stm32f4xx.c)(0x53F4E6FE)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS\Include -I..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\Drivers\inc -I..\Application\inc -I..\Libraries\eMPL -I..\Matrix\inc -I..\Algorithm\inc -I..\Math\inc -I..\miniIMU -I..\miniIMU\FP -I..\miniAHRS-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DARM_MATH_CM4 -D__FPU_PRESENT -DMPU9250 -DSTM32F40_41xxx-o .\stm32f4_flightcontrol\system_stm32f4xx.o --omf_browse .\stm32f4_flightcontrol\system_stm32f4xx.crf --depend .\stm32f4_flightcontrol\system_stm32f4xx.d)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BF35A)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7158)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7158)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BF35A)
+I (..\Application\inc\stm32f4xx_conf.h)(0x54E4D312)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EFA)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D513A)
+F (..\Application\src\stm32f4_delay.c)(0x54D5EE42)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS\Include -I..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\Drivers\inc -I..\Application\inc -I..\Libraries\eMPL -I..\Matrix\inc -I..\Algorithm\inc -I..\Math\inc -I..\miniIMU -I..\miniIMU\FP -I..\miniAHRS-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DARM_MATH_CM4 -D__FPU_PRESENT -DMPU9250 -DSTM32F40_41xxx-o .\stm32f4_flightcontrol\stm32f4_delay.o --omf_browse .\stm32f4_flightcontrol\stm32f4_delay.crf --depend .\stm32f4_flightcontrol\stm32f4_delay.d)
+I (..\Application\inc\stm32f4_delay.h)(0x54D5EE23)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BF35A)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7158)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7158)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BF35A)
+I (..\Application\inc\stm32f4xx_conf.h)(0x54E4D312)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EFA)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D513A)
+F (..\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c)(0x527D5154)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS\Include -I..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\Drivers\inc -I..\Application\inc -I..\Libraries\eMPL -I..\Matrix\inc -I..\Algorithm\inc -I..\Math\inc -I..\miniIMU -I..\miniIMU\FP -I..\miniAHRS-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DARM_MATH_CM4 -D__FPU_PRESENT -DMPU9250 -DSTM32F40_41xxx-o .\stm32f4_flightcontrol\stm32f4xx_rcc.o --omf_browse .\stm32f4_flightcontrol\stm32f4xx_rcc.crf --depend .\stm32f4_flightcontrol\stm32f4xx_rcc.d)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D513A)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BF35A)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7158)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7158)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BF35A)
+I (..\Application\inc\stm32f4xx_conf.h)(0x54E4D312)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EFA)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D513A)
+F (..\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f40_41xxx.s)(0x54D897BF)(--cpu Cortex-M4.fp -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-o .\stm32f4_flightcontrol\startup_stm32f40_41xxx.o --depend .\stm32f4_flightcontrol\startup_stm32f40_41xxx.d)
+F (..\Algorithm\src\Quaternion.c)(0x54F86219)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS\Include -I..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\Drivers\inc -I..\Application\inc -I..\Libraries\eMPL -I..\Matrix\inc -I..\Algorithm\inc -I..\Math\inc -I..\miniIMU -I..\miniIMU\FP -I..\miniAHRS-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DARM_MATH_CM4 -D__FPU_PRESENT -DMPU9250 -DSTM32F40_41xxx-o .\stm32f4_flightcontrol\quaternion.o --omf_browse .\stm32f4_flightcontrol\quaternion.crf --depend .\stm32f4_flightcontrol\quaternion.d)
+I (..\Algorithm\inc\Quaternion.h)(0x55015E82)
+I (..\Math\inc\FastMath.h)(0x54F85F7C)
+F (..\Algorithm\src\Control.c)(0x5585293A)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS\Include -I..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\Drivers\inc -I..\Application\inc -I..\Libraries\eMPL -I..\Matrix\inc -I..\Algorithm\inc -I..\Math\inc -I..\miniIMU -I..\miniIMU\FP -I..\miniAHRS-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DARM_MATH_CM4 -D__FPU_PRESENT -DMPU9250 -DSTM32F40_41xxx-o .\stm32f4_flightcontrol\control.o --omf_browse .\stm32f4_flightcontrol\control.crf --depend .\stm32f4_flightcontrol\control.d)
+I (..\Algorithm\inc\Control.h)(0x55852926)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BF35A)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7158)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7158)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BF35A)
+I (..\Application\inc\stm32f4xx_conf.h)(0x54E4D312)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EFA)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D513A)
+I (..\Libraries\CMSIS\Include\arm_math.h)(0x527B7158)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (..\Matrix\inc\AdditionalMatrix.h)(0x55850169)
+I (..\Math\inc\Vector.h)(0x55852196)
+I (..\Math\inc\Rotation.h)(0x55843002)
+I (..\Math\inc\FastMath.h)(0x54F85F7C)
+F (..\Algorithm\src\PID.c)(0x54F82FA4)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS\Include -I..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\Drivers\inc -I..\Application\inc -I..\Libraries\eMPL -I..\Matrix\inc -I..\Algorithm\inc -I..\Math\inc -I..\miniIMU -I..\miniIMU\FP -I..\miniAHRS-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DARM_MATH_CM4 -D__FPU_PRESENT -DMPU9250 -DSTM32F40_41xxx-o .\stm32f4_flightcontrol\pid.o --omf_browse .\stm32f4_flightcontrol\pid.crf --depend .\stm32f4_flightcontrol\pid.d)
+I (..\Algorithm\inc\PID.h)(0x54F82FC1)
+F (..\Algorithm\src\INS_EKF.c)(0x5584F9B3)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS\Include -I..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\Drivers\inc -I..\Application\inc -I..\Libraries\eMPL -I..\Matrix\inc -I..\Algorithm\inc -I..\Math\inc -I..\miniIMU -I..\miniIMU\FP -I..\miniAHRS-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DARM_MATH_CM4 -D__FPU_PRESENT -DMPU9250 -DSTM32F40_41xxx-o .\stm32f4_flightcontrol\ins_ekf.o --omf_browse .\stm32f4_flightcontrol\ins_ekf.crf --depend .\stm32f4_flightcontrol\ins_ekf.d)
+I (..\Algorithm\inc\INS_EKF.h)(0x55850A03)
+I (..\Matrix\inc\Matrix.h)(0x5516BC32)
+I (..\Libraries\CMSIS\Include\arm_math.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7158)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7158)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (..\Math\inc\FastMath.h)(0x54F85F7C)
+I (..\Algorithm\inc\Quaternion.h)(0x55015E82)
+F (..\Matrix\src\Matrix.c)(0x5516BC32)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS\Include -I..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\Drivers\inc -I..\Application\inc -I..\Libraries\eMPL -I..\Matrix\inc -I..\Algorithm\inc -I..\Math\inc -I..\miniIMU -I..\miniIMU\FP -I..\miniAHRS-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DARM_MATH_CM4 -D__FPU_PRESENT -DMPU9250 -DSTM32F40_41xxx-o .\stm32f4_flightcontrol\matrix.o --omf_browse .\stm32f4_flightcontrol\matrix.crf --depend .\stm32f4_flightcontrol\matrix.d)
+I (..\Matrix\inc\Matrix.h)(0x5516BC32)
+I (..\Libraries\CMSIS\Include\arm_math.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7158)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7158)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (..\Math\inc\FastMath.h)(0x54F85F7C)
+F (..\Matrix\src\AdditionalMatrix.c)(0x5585016A)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS\Include -I..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\Drivers\inc -I..\Application\inc -I..\Libraries\eMPL -I..\Matrix\inc -I..\Algorithm\inc -I..\Math\inc -I..\miniIMU -I..\miniIMU\FP -I..\miniAHRS-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DARM_MATH_CM4 -D__FPU_PRESENT -DMPU9250 -DSTM32F40_41xxx-o .\stm32f4_flightcontrol\additionalmatrix.o --omf_browse .\stm32f4_flightcontrol\additionalmatrix.crf --depend .\stm32f4_flightcontrol\additionalmatrix.d)
+I (..\Matrix\inc\AdditionalMatrix.h)(0x55850169)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BF35A)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7158)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7158)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BF35A)
+I (..\Application\inc\stm32f4xx_conf.h)(0x54E4D312)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EFA)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D513A)
+I (..\Libraries\CMSIS\Include\arm_math.h)(0x527B7158)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+F (..\Libraries\CMSIS\DSP_Lib\Lib\arm_cortexM4lf_math.lib)(0x527B7198)()
+F (..\Math\src\FastMath.c)(0x55029B50)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS\Include -I..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\Drivers\inc -I..\Application\inc -I..\Libraries\eMPL -I..\Matrix\inc -I..\Algorithm\inc -I..\Math\inc -I..\miniIMU -I..\miniIMU\FP -I..\miniAHRS-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DARM_MATH_CM4 -D__FPU_PRESENT -DMPU9250 -DSTM32F40_41xxx-o .\stm32f4_flightcontrol\fastmath.o --omf_browse .\stm32f4_flightcontrol\fastmath.crf --depend .\stm32f4_flightcontrol\fastmath.d)
+I (..\Math\inc\FastMath.h)(0x54F85F7C)
+F (..\Math\src\Vector.c)(0x55852CC3)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS\Include -I..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\Drivers\inc -I..\Application\inc -I..\Libraries\eMPL -I..\Matrix\inc -I..\Algorithm\inc -I..\Math\inc -I..\miniIMU -I..\miniIMU\FP -I..\miniAHRS-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DARM_MATH_CM4 -D__FPU_PRESENT -DMPU9250 -DSTM32F40_41xxx-o .\stm32f4_flightcontrol\vector.o --omf_browse .\stm32f4_flightcontrol\vector.crf --depend .\stm32f4_flightcontrol\vector.d)
+I (..\Math\inc\Vector.h)(0x55852196)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BF35A)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7158)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7158)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BF35A)
+I (..\Application\inc\stm32f4xx_conf.h)(0x54E4D312)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EFA)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D513A)
+I (..\Libraries\CMSIS\Include\arm_math.h)(0x527B7158)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+F (..\Math\src\Rotation.c)(0x55852CC3)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS\Include -I..\Libraries\CMSIS\ST\STM32F4xx\Include -I..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\Drivers\inc -I..\Application\inc -I..\Libraries\eMPL -I..\Matrix\inc -I..\Algorithm\inc -I..\Math\inc -I..\miniIMU -I..\miniIMU\FP -I..\miniAHRS-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DARM_MATH_CM4 -D__FPU_PRESENT -DMPU9250 -DSTM32F40_41xxx-o .\stm32f4_flightcontrol\rotation.o --omf_browse .\stm32f4_flightcontrol\rotation.crf --depend .\stm32f4_flightcontrol\rotation.d)
+I (..\Math\inc\Rotation.h)(0x55843002)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BF35A)
+I (..\Libraries\CMSIS\Include\core_cm4.h)(0x527B7158)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\Libraries\CMSIS\Include\core_cmInstr.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cmFunc.h)(0x527B7158)
+I (..\Libraries\CMSIS\Include\core_cm4_simd.h)(0x527B7158)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BF35A)
+I (..\Application\inc\stm32f4xx_conf.h)(0x54E4D312)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x52810EFA)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x527D513A)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h)(0x527D513C)
+I (..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x527D513A)
+I (..\Libraries\CMSIS\Include\arm_math.h)(0x527B7158)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (..\Math\inc\FastMath.h)(0x54F85F7C)
